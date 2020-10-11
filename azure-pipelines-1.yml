@@ -39,7 +39,7 @@ steps:
     containerRegistry: $(containerRegistry)
     repository: $(imageRepository)
     command: 'buildAndPush'
-    Dockerfile: 'DockerFile'
+    Dockerfile: 'Dockerfile'
     tags: |
           $(Build.BuildId)
 - task: CmdLine@2
