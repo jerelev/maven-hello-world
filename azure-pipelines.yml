@@ -11,7 +11,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: Maven@0
+- task: Maven@3
   inputs:
     mavenPomFile: 'my-app/pom.xml'
     mavenOptions: '-Xmx3072m'
