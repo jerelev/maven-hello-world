@@ -47,4 +47,4 @@ steps:
     script: |
       sudo docker ps -a
       sudo docker images
-      sudo docker run --name  "test_$(Build.BuildId)" devopsworkking/devops_exercise:$(Build.BuildId)
+      sudo docker run --name  "test_$(Build.BuildId)" jerelev/devops_exercise:$(Build.BuildId)
