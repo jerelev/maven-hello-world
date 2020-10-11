@@ -12,8 +12,8 @@ pool:
 
 variables:
   imageName: 'pipelines-devops-exercise-docker'
-  imageRepository: 'jeremiedevops/devops_exercise'
-  containerRegistry: 'JeremieHub'
+  imageRepository: 'jerelev/devops_exercise'
+  containerRegistry: 'dockerhub'
 
 steps:
 - task: Maven@3
