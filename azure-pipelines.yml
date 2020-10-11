@@ -23,6 +23,6 @@ steps:
     goals: 'package'
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/my-app/target'
     ArtifactName: 'maven_drop'
     publishLocation: 'Container'
